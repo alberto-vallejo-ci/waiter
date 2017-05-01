@@ -1,0 +1,16 @@
+general: &general
+  adapter: postgresql
+  pool: 5
+  min_messages: WARNING
+
+development:
+  <<: *general
+  database: DEV_DB
+
+test:
+  <<: *general
+  database: TEST_DB
+
+production:
+  <<: *general
+  database: PROD_DB
