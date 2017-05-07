@@ -6,7 +6,9 @@ gem 'coffee-rails'
 gem 'haml_assets'
 gem 'haml-rails'
 gem 'pg'
+gem 'react-railst'
 gem 'sass-rails'
+gem 'sprockets'
 gem 'uglifier'
 
 group :development do
