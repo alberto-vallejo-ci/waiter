@@ -1,22 +1,17 @@
 {
   "name": "waiter",
-  "homepage": "https://github.com/alberto-vallejo-ci/waiter",
+  "description": "== README",
+  "main": "index.js",
   "authors": [
     "Alberto Vallejo <javr1088@gmail.com>"
   ],
-  "description": "Front end JS animations",
-  "main": "",
-  "keywords": [
-    "['JS'",
-    "'Effects'",
-    "'Front",
-    "end']"
-  ],
-  "license": "MIT",
+  "license": "ISC",
+  "homepage": "https://github.com/alberto-vallejo-ci/waiter",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
+    "vendor/assets/bower_components",
     "test",
     "tests"
   ],

@@ -10,10 +10,10 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require jquery/dist/jquery
+//
 //= require react
 //= require react_ujs
 //= require components
 //
 //= require_tree .
-
-$('.order').append('<h1>FOOO</h1>')
