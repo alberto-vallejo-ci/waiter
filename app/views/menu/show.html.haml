@@ -2,9 +2,12 @@
   %h1.title Menu
   .message
     Selecciona los productos que desees :)
-  .col-md-8
-    #menu.menu
-      = react_component("Category", {title: "Hello World"})
+  .row
+    .col-md-8
+      #menu.menu
+        = react_component("Category", {title: "Hello World"})
 
-  .col-md-4
-    .order
+    .col-md-4
+      .order
+        %h4 Orden
+        = button_tag 'Hola', class: 'btn btn-primary'

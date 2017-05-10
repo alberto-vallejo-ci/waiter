@@ -13,4 +13,7 @@
 //= require react
 //= require react_ujs
 //= require components
+//
 //= require_tree .
+
+$('.order').append('<h1>FOOO</h1>')
