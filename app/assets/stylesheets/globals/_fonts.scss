@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Dancing Script';
+  font-weight: 400;
+  src: font-url('Dancing_Script/DancingScript-Regulat.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Dancing Script';
+  font-weight: 700;
+  src: font-url('Dancing_Script/DancingScript-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 300;
+  src: font-url('Lato/Lato-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-weight: 400;
+  src: font-url('Lato/Lato-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-weight: 700;
+  src: font-url('Lato/Lato-Bold.ttf') format('truetype');
+}
+
+$dancing:      'Dancing Script', cursive;
+$lato:         'Lato', sans-serif;
